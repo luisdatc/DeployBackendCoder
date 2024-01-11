@@ -1,0 +1,17 @@
+<h1>Login de usuario/administrador</h1>
+
+{{#if req.session.error}}
+<p>{{req.session.error}}</p>
+{{/if}}
+
+<form action="/api/sessions/login" method="POST">
+<label for="email">Correo electronico:</label>
+<input type="email" id="email" name="email" required>
+<label for="password">Contraseña</label>
+<input type="password" id="password" name="password" required>
+<button type="submit">Iniciar Sesion</button>
+
+<p>No tienes una cuenta? Unate a nosotros haciendo click <a href="/registro">aca</a></p>
+
+
+</form>

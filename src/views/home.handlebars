@@ -1,0 +1,30 @@
+<h1>Listado de Productos</h1>
+    {{> botonLogout}}
+<div class="card-container">
+  {{#each products}}
+    <div class="card">
+      <div class="card-title">
+        <h1>{{title}}</h1>
+      </div>
+      <div class="card-imagen">
+        <h5>{{thumbnails}}</h5>
+      </div>
+      <div class="card-body">
+        <div class="card-description">
+          {{description}}
+        </div>
+        <div class="card-footer">
+          <div class="card-code">
+            <h4>Codigo del producto: {{code}}</h4>
+          </div>
+          <div class="card-stock">
+            <h4>Stock del producto: {{stock}}</h4>
+          </div>
+          <div class="card-price">
+            <h4>Precio del producto: ${{price}}</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+</div>

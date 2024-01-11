@@ -1,0 +1,37 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 20rem;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-imagen {
+  font-size: 0.8rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.card-code,
+.card-stock,
+.card-price {
+  margin-top: 0.5rem;
+}
+
+.footer {
+  text-align: center;
+}

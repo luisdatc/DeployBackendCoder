@@ -1,0 +1,216 @@
+paths:
+  /api/carts/:
+    get:
+      summary: Obtiene todos los carritos de usuarios registrados.
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: Carritos obtenidos correctamente.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Carts"
+        "500":
+          description: Error interno del servidor
+
+    post:
+      summary: Crea un nuevo carrito para un usuario.
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: Carrito creado correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Carts"
+        "500":
+          description: Error interno del servidor
+  
+  /api/carts/{cid}:
+    get:
+      summary: Obtiene un carrito de usuario mediante su Id.
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          type: string
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: Carrito obtenido correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Carts"
+        "500":
+          description: Error interno del servidor
+
+    put:
+      summary: Actualiza un carrito de usuario.
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          type: string
+        - in: body
+          name: body
+          required: true
+          schema:
+            $ref: "#/components/schemas/Carts"
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: Carrito actualizado correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Carts"
+        "500":
+          description: Error interno del servidor
+
+  /api/carts/{id}:
+    delete:
+      summary: Borra el registro de un carrito de usuario.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          type: string
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: Carrito borrado correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Carts"
+        "500":
+          description: Error interno del servidor
+
+  /api/carts/{cid}/products/{pid}:
+    post:
+      summary: Añade un producto al carrito.
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          type: string
+        - in: path
+          name: pid
+          required: true
+          type: string
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: Producto añadido al carrito correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Carts"
+        "500":
+          description: Error interno del servidor
+
+    put:
+      summary: Actualiza la cantidad de un producto en el carrito.
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          type: string
+        - in: path
+          name: pid
+          required: true
+          type: string
+        - in: body
+          name: body
+          required: true
+          schema:
+            type: object
+            properties:
+              quantity:
+                type: number
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: Cantidad de producto actualizada correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Carts"
+        "500":
+          description: Error interno del servidor
+
+    delete:
+      summary: Elimina un producto del carrito.
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          type: string
+        - in: path
+          name: pid
+          required: true
+          type: string
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: Producto eliminado del carrito correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Carts"
+        "500":
+          description: Error interno del servidor
+
+  /api/carts/{cid}/purchase:
+    post:
+      summary: Realiza la compra del carrito.
+      parameters:
+        - in: path
+          name: cid
+          required: true
+          type: string
+      tags:
+        - Carts
+      responses:
+        "200":
+          description: Compra realizada correctamente.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Carts"
+        "500":
+          description: Error interno del servidor
+
+components:
+  schemas:
+    Carts:
+      type: object
+      properties:
+        _id:
+          type: string
+          description: ID autogenerado por mongoDb
+        products:
+          type: array
+          items:
+            type: object
+            properties:
+              id_prod:
+                type: string
+                description: ID del producto
+              quantity:
+                type: number
+                description: Cantidad del producto
+      example:
+        _id: ObjectId("34543igk543")
+        products: []

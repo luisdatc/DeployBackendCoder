@@ -1,0 +1,123 @@
+paths:
+  /api/users/:
+    get:
+      summary: Obtiene todos los usuarios registrados.
+      tags:
+        - Users
+      responses:
+        "200":
+          description: Usuarios obtenidos correctamente.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Users"
+        "500":
+          description: Error interno del servidor
+  /api/users/{id}:
+    get:
+      summary: Obtiene un usuario mediante su Id.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          type: string
+      tags:
+        - Users
+      responses:
+        "200":
+          description: Usuario obtenido correctamente.
+          content:
+            aplication/json:
+              schema:
+                $ref: "#/components/schemas/Users"
+        "500":
+          description: Error interno del servidor
+    put:
+      summary: Actualizar un usuario.
+      parameters:
+        - in: body
+          name: body
+          required: true
+          schema:
+            type: object
+            properties:
+              first_name:
+                type: string
+              last_name:
+                type: string
+              age:
+                type: number
+              email:
+                type: string
+              password:
+                type: string
+      tags:
+        - Users
+      responses:
+        "200":
+          description: Producto actualizado correctamente.
+          content:
+            aplication/json:
+              schema:
+                $ref: "#/components/schemas/Users"
+        "500":
+          description: Error interno del servidor
+    delete:
+      summary: Borrar el registro de un usuario.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          type: string
+      tags:
+        - Users
+      responses:
+        "200":
+          description: Usuario borrado correctamente.
+          content:
+            aplication/json:
+              schema:
+                $ref: "#/components/schemas/Users"
+        "500":
+          description: Error interno del servidor
+
+components:
+  schemas:
+    Users:
+      type: object
+      properties:
+        _id:
+          type: objectId
+          description: ID autogenerado por mongoDb
+        first_name:
+          type: string
+          description: Nombre del usuario.
+        last_name:
+          type: string
+          description: Apellido del usuario.
+        age:
+          type: number
+          description: Edad del usuario.
+        email:
+          type: string
+          description: email del usuario.
+        password:
+          type: string
+          description: contraseña del usuario.
+        rol:
+          type: string
+          description: rol del usuario.
+        cart:
+          type: array
+          description: carrito asociado al usuario.
+      example:
+        _id: ObjectId("34543igk543")
+        first_name: Jane
+        last_name: Doe
+        age: 50
+        email: prueba@prueba.com
+        password: kjdvh893trnl
+        rol: usuario
+        cart: []

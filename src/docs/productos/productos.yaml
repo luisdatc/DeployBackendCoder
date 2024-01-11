@@ -1,0 +1,153 @@
+paths:
+  /api/products/:
+    get:
+      summary: Obtiene todos los productos.
+      tags:
+        - Productos
+      responses:
+        "200":
+          description: Productos obtenidos correctamente.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Productos"
+        "500":
+          description: Error interno del servidor
+    post:
+      summary: Crear producto nuevo.
+      parameters:
+        - in: body
+          name: body
+          required: true
+          schema:
+            type: object
+            properties:
+              _id:
+                type: string
+              title:
+                type: string
+              description:
+                type: string
+              price:
+                type: number
+              thumbnails:
+                type: array
+              status:
+                type: boolean
+              code:
+                type: string
+              stock:
+                type: number
+              category:
+                type: string
+      tags:
+        - Productos
+      responses:
+        "201":
+          description: Producto creado correctamente.
+          content:
+            aplication/json:
+              schema:
+                $ref: "#/components/schemas/Productos"
+        "500":
+          description: Error interno del servidor
+  /api/products/{id}:
+    get:
+      summary: Obtiene un producto mediante su Id.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          type: string
+      tags:
+        - Productos
+      responses:
+        "200":
+          description: Producto obtenido correctamente.
+          content:
+            aplication/json:
+              schema:
+                $ref: "#/components/schemas/Productos"
+        "500":
+          description: Error interno del servidor
+    put:
+      summary: Actualizar un producto.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          type: string
+      tags:
+        - Productos
+      responses:
+        "200":
+          description: Producto actualizado correctamente.
+          content:
+            aplication/json:
+              schema:
+                $ref: "#/components/schemas/Productos"
+        "500":
+          description: Error interno del servidor
+    delete:
+      summary: Borrar un producto.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          type: string
+      tags:
+        - Productos
+      responses:
+        "200":
+          description: Producto borrado correctamente.
+          content:
+            aplication/json:
+              schema:
+                $ref: "#/components/schemas/Productos"
+        "500":
+          description: Error interno del servidor
+
+components:
+  schemas:
+    Productos:
+      type: object
+      properties:
+        _id:
+          type: objectId
+          description: ID autogenerado por mongoDb
+        title:
+          type: string
+          description: Titulo del producto.
+        description:
+          type: string
+          description: Descripcion del producto.
+        price:
+          type: number
+          description: Precio del producto.
+        thumbnails:
+          type: array
+          description: Imagenes del producto.
+        status:
+          type: boolean
+          description: Estado del producto.
+        code:
+          type: string
+          description: Codigo del producto.
+        stock:
+          type: number
+          description: Stock del producto.
+        category:
+          type: string
+          description: Categoria del producto.
+      example:
+        _id: ObjectId("34543igk543")
+        title: Wonder Boy
+        description: Comic de Marvel
+        price: 5.00
+        thumbnails: []
+        status: true
+        code: WB2522
+        stock: 10
+        category: Wonder

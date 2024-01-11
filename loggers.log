@@ -1,0 +1,148 @@
+[32minfo[39m: GET es /error-18:48:56
+[32minfo[39m: GET es /error-18:48:56
+[32minfo[39m: GET es /fatal-18:49:14
+[32minfo[39m: GET es /fatal-18:49:14
+[32minfo[39m: GET es /info-18:50:23
+[32minfo[39m: GET es /info-18:50:23
+[32minfo[39m: GET es /fatal-18:52:08
+[32minfo[39m: GET es /fatal-18:52:08
+[34mdebug[39m: GET es /fatal-18:52:28
+[34mdebug[39m: GET es /fatal-18:56:10
+[34mdebug[39m: GET es /error-18:56:30
+[34mdebug[39m: GET es /fatal-18:58:02
+[34mdebug[39m: GET es /warning-19:02:37
+[34mdebug[39m: GET es /info-19:03:25
+[34mdebug[39m: GET es /fatal-19:06:42
+[31merror[39m: GET es /fatal-19:07:48
+[31merror[39m: GET es /fatal-19:07:48
+[31merror[39m: GET es /fatal-19:07:48
+[34mdebug[39m: GET es /error-19:08:12
+[34mdebug[39m: GET es /error-19:09:12
+[34mdebug[39m: GET es /fatal-19:09:24
+[34mdebug[39m: GET es /fatal-19:13:43
+[34mdebug[39m: GET es /error-19:21:39
+[34mdebug[39m: GET es /error-19:21:50
+[34mdebug[39m: GET es /fatal-19:21:55
+[34mdebug[39m: GET es /products-19:22:21
+[34mdebug[39m: GET es /api/products-19:22:29
+[34mdebug[39m: GET es /favicon.ico-19:22:30
+[34mdebug[39m: GET es /api/logger/fatal-19:22:38
+[34mdebug[39m: GET es /fatal-19:22:38
+[34mdebug[39m: GET es /api/logger/error-19:22:54
+[31merror[39m: Hola error
+[31merror[39m: Hola error
+[34mdebug[39m: GET es /error-19:22:54
+[31merror[39m: Hola error
+[34mdebug[39m: GET es /api/logger/http-19:23:06
+[34mdebug[39m: GET es /http-19:23:06
+[32mhttp[39m: Hola http
+[34mdebug[39m: GET es /api/logger/warning-19:23:14
+[31mwarning[39m: Hola warning
+[31mwarning[39m: Hola warning
+[34mdebug[39m: GET es /warning-19:23:14
+[31mwarning[39m: Hola warning
+[34mdebug[39m: GET es /api/logger/fatal-19:23:36
+[34mdebug[39m: GET es /fatal-19:23:36
+[34mdebug[39m: GET es /api/logger/fatal-19:27:30
+[34mdebug[39m: GET es /fatal-19:27:30
+[34mdebug[39m: GET es /api/logger/fatal-19:28:50
+[34mdebug[39m: GET es /fatal-19:28:50
+[34mdebug[39m: GET es /api/logger/fatal-19:28:51
+[34mdebug[39m: GET es /fatal-19:28:51
+[34mdebug[39m: GET es /api/logger/error-19:28:55
+[31merror[39m: Hola error
+[31merror[39m: Hola error
+[34mdebug[39m: GET es /error-19:28:55
+[31merror[39m: Hola error
+[34mdebug[39m: GET es /api/logger/fatal-19:29:15
+[34mdebug[39m: GET es /fatal-19:29:15
+[34mdebug[39m: GET es /fatal-19:30:04
+[34mdebug[39m: GET es /fatal-19:30:05
+[34mdebug[39m: GET es /http-19:30:55
+[32mhttp[39m: Hola http
+[34mdebug[39m: GET es /http-19:31:12
+[32mhttp[39m: Hola http
+[34mdebug[39m: GET es /debug-19:31:31
+[34mdebug[39m: Hola debug
+[34mdebug[39m: GET es /http-19:31:58
+[32mhttp[39m: Hola http
+[34mdebug[39m: GET es /info-19:32:15
+[32minfo[39m: Hola info
+[32minfo[39m: Hola info
+[34mdebug[39m: GET es /warning-19:32:24
+[31mwarning[39m: Hola warning
+[31mwarning[39m: Hola warning
+[31mwarning[39m: Hola warning
+[34mdebug[39m: GET es /error-19:32:33
+[31merror[39m: Hola error
+[31merror[39m: Hola error
+[31merror[39m: Hola error
+[34mdebug[39m: GET es /fatal-19:32:42
+[34mdebug[39m: GET es /fatal-19:33:23
+[34mdebug[39m: GET es /fatal-19:40:46
+[31merror[39m: Hola fatal
+[31merror[39m: Hola fatal
+[31merror[39m: Hola fatal
+[32mdebug[39m: GET es /fatal-19:45:16
+[31mfatal[39m: Hola fatal
+[31mfatal[39m: Hola fatal
+[31mfatal[39m: Hola fatal
+[32mdebug[39m: GET es /info-19:46:43
+[34minfo[39m: Hola info
+[34minfo[39m: Hola info
+[32mdebug[39m: GET es /warning-19:46:54
+[33mwarning[39m: Hola warning
+[33mwarning[39m: Hola warning
+[33mwarning[39m: Hola warning
+[32mdebug[39m: GET es /debug-19:46:59
+[32mdebug[39m: Hola debug
+[32mdebug[39m: GET es /fatal-19:47:32
+[31mfatal[39m: Hola fatal
+[31mfatal[39m: Hola fatal
+[31mfatal[39m: Hola fatal
+[32mdebug[39m: GET es /fatal-19:51:15
+[31mfatal[39m: Hola fatal
+[31mfatal[39m: Hola fatal
+[31mfatal[39m: Hola fatal
+[32mdebug[39m: GET es /fatal-19:51:39
+[31mfatal[39m: Hola fatal
+[31mfatal[39m: Hola fatal
+[31mfatal[39m: Hola fatal
+[32mdebug[39m: GET es /warning-19:51:49
+[33mwarning[39m: Hola warning
+[33mwarning[39m: Hola warning
+[33mwarning[39m: Hola warning
+[32mdebug[39m: GET es /info-19:51:59
+[34minfo[39m: Hola info
+[34minfo[39m: Hola info
+[32mdebug[39m: GET es /http-19:52:05
+[35mhttp[39m: Hola http
+[32mdebug[39m: GET es /debug-19:52:10
+[32mdebug[39m: Hola debug
+[32mdebug[39m: GET es /warning-19:54:35
+[36mwarning[39m: Hola warning
+[36mwarning[39m: Hola warning
+[36mwarning[39m: Hola warning
+[32mdebug[39m: GET es /error-19:54:43
+[33merror[39m: Hola error
+[33merror[39m: Hola error
+[33merror[39m: Hola error
+[32mdebug[39m: GET es /http-19:55:40
+[90mhttp[39m: Hola http
+[32mdebug[39m: GET es /http-19:55:46
+[90mhttp[39m: Hola http
+[32mdebug[39m: GET es /info-19:55:54
+[34minfo[39m: Hola info
+[34minfo[39m: Hola info
+[32mdebug[39m: GET es /error-19:56:02
+[33merror[39m: Hola error
+[33merror[39m: Hola error
+[33merror[39m: Hola error
+[90mdebug[39m: GET es /error-19:56:46
+[33merror[39m: Hola error
+[33merror[39m: Hola error
+[33merror[39m: Hola error
+[90mdebug[39m: GET es /fatal-19:57:12
+[31mfatal[39m: Hola fatal
+[31mfatal[39m: Hola fatal
+[31mfatal[39m: Hola fatal

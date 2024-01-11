@@ -1,0 +1,452 @@
+[
+  {
+    "title": "Thor: Vikings (2003) #4",
+    "description": "Thor and Dr. Strange go back through time to gather a force to face the ZOMBIE VIKINGS!!",
+    "price": 3.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "TV2003",
+    "stock": 5,
+    "category": "Thor"
+  },
+  {
+    "title": "The Eternal #6",
+    "description": "The shocking series conclusion! A devastating clash between Eternals and Celestials leaves no one unchanged... and has consequences of cosmic proportions!",
+    "price": 6.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "ET169",
+    "stock": 6,
+    "category": "Eternal"
+  },
+  {
+    "title": "Hulk: Nightmerica #5",
+    "description": "The finest minds in the world have tried and failed to cure Bruce Banner of the awful curse of the Hulk. But, perhaps, at long last, in the depths of the Nightmerica Compound, that long sought cure may have finally been found. But is it simply an act of pure benevolence, or is there a hidden agenda behind it all?",
+    "price": 2.99,
+    "thumbnail": "alguna ruta",
+    "code": "HN382",
+    "status": true,
+    "stock": 10,
+    "category": "Hulk"
+  },
+  {
+    "title": "Supreme Power #3",
+    "description": "When reports of a secretive government project 'Hyperion' begin to surface in shadowy circles, investigative reporter Jason Scott starts to see a connection. And when he tracks down a woman who swears that she and her husband found a baby who crash-landed a spaceship in a cornfield, he thinks he has found the key.  What will the government do if he uncovers their secret super hero?  Will they let Jason continue to uncover details ... or will they silence him?",
+    "price": 7.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "DSP182",
+    "stock": 7,
+    "category": "Hyperion"
+  },
+  {
+    "title": "Spider-Girl (1998) #67",
+    "description": "Spider-Girl learns that sometimes you just have to take one for the team when she loses one regular cast member, grows more distant from a second and learns something terrible about a third.",
+    "price": 9.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "SG191",
+    "stock": 2,
+    "category": "Spidergirl"
+  },
+  {
+    "title": "Mystique #21",
+    "description": "Mystique is caught between two masters-one, mutant activist Charles Xavier; the other, the mysterious Quiet Man. Now, the time has come when she can no longer serve both!",
+    "price": 10.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/1/50/580fe48216977.jpg",
+    "status": true,
+    "code": "MT010",
+    "stock": 1,
+    "category": "Mystique"
+  },
+  {
+    "title": "Spider-Man/Doctor Octopus: Negative Exposure #3",
+    "description": "The sinister plans of Doc Ock slowly simmer through the bars of Riker's Island as Spider-Man comes face-to-face with Peter Parker's arch-nemesis. An action-packed issue also featuring a mysterious guest appearance from one of Spider-Man's most dreaded foes.",
+    "price": 6.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "code": "SO296",
+    "stock": 3,
+    "category": "varios"
+  },
+  {
+    "title": "Ant-Man #1",
+    "description": "Size does matter.  And no one knows this more than Hank Pym - a.k.a. Ant-Man. Got a problem with Galactus? Call the FF. Got a problem with, say, mind-controlled cockroaches? Then Ant-Man's your man! And needless to say, it's done a number on our diminutive hero's self-esteem.  When Ant-Man is tapped to infiltrate an international spy ring that has been siphoning secrets out of Washington, he jumps at the chance - unaware that he's being used as a pawn in a larger game of espionage.",
+    "price": 10.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "AM291",
+    "stock": 5,
+    "category": "Antman"
+  },
+  {
+    "title": "Wolverine/Captain America #1",
+    "description": "It's a Marvel team-up for the ages in this 4-issue weekly limited series event! When a highly coveted piece of alien Shi'Ar technology en route from the X-Men's headquarters to Avengers Mansion gets intercepted by a rogue group of ex-S.H.I.E.L.D. super agents, both teams send their best chance to get it back into the field! Can these two VERY different heroes work together for a common cause?",
+    "price": 5.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "WC260",
+    "stock": 4,
+    "category": "varios"
+  },
+  {
+    "title": "Weapon X  #15",
+    "description": "An X-MAN joins the WEAPON X team in this start of a new story arc!",
+    "price": 3.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "WX244",
+    "stock": 4,
+    "category": "wolverine"
+  },
+  {
+    "title": "Emma FrosT #4",
+    "description": "Vacationing with her family in Peru, young Emma Frost discovers her newfound mutant powers aren't the only secret that her family is keeping! The perils and thrills of being a mutant set in as Emma slowly blossoms into the dangerous and seductive X-Man of today!",
+    "price": 5.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "EF312",
+    "stock": 10,
+    "category": "Emmafrost"
+  },
+  {
+    "title": "Punisher #33",
+    "description": "It might be The Punisher's final hour as DAREDEVIL, SPIDER-MAN, and WOLVERINE team up to bring Frank Castle's killing spree to an end. And what does the HULK have to do with it all?",
+    "price": 12.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "PU114",
+    "stock": 10,
+    "category": "Punisher"
+  },
+  {
+    "title": "Venom #11",
+    "description": "Certain questions have arisen since Venom's mysterious appearance at the Radar Station in Northern Canada. Like, how did he get there? Where's Eddie Brock? And, what turned this one-time 'Lethal Protector' into a bloodthirsty homicidal maniac? The answers to these questions will be revealed with the help of a few guest stars.",
+    "price": 9.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "VN264",
+    "stock": 9,
+    "category": "Venom"
+  },
+  {
+    "title": "Hawkeye #4",
+    "description": "Hawkeye's Myrtle Beach mystery spirals out of Clint's control just as the little Southern secret worth hundreds of millions of dollars was coming into focus. What was the \"Unity Pact\" that bound a group of Vietnam vets together and is the answer still a world away in Laos? The only way for Clint and a motley band of misfits to find out might be to go on a little road trip...",
+    "price": 4.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "HE316",
+    "stock": 9,
+    "category": "Hawkeye"
+  },
+  {
+    "title": "Marvel Age Fantastic Four #8",
+    "description": "A single-issue story and a great jumping-on point for comics' longest-running female headliner!  As Courtney Duran finally learns Moose's terrible secret, Davida Kirby helps an injured Spider-Girl against the monstrous Dragon King.",
+    "price": 7.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "FF036",
+    "stock": 8,
+    "category": "Fantastic4"
+  },
+  {
+    "title": "Amazing Fantasy #6",
+    "description": "It's the end of the origin of Anya Corazon - and a new beginning.  But, first, the question on everyone's mind: what's the public identity of Marvel's newest media darling? Well, we won't tell you here, but we will tell you folks are clamoring for the inside scoop and a glimpse of this amazing spider-like teen, who's now been seen everywhere from Telemundo to Fox News to the NY Daily News - not bad for a Latina from Brooklyn!",
+    "price": 8.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "AF045",
+    "stock": 3,
+    "category": "varios"
+  },
+  {
+    "title": "Tomb of Dracula #2",
+    "description": "Blade and a violent team of deadly vampire slayers set out to destroy Dracula before his metamorphosis into a vampire god is complete!! But is there a mole on the mission? Plus: the truth about the eerie prophecy of Dracula's destiny...",
+    "price": 5.5,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/2/00/5ebaf9f30bba5.jpg",
+    "status": true,
+    "code": "TOD048",
+    "stock": 1,
+    "category": "Dracula"
+  },
+  {
+    "title": "4 #12",
+    "description": "Every dream must come to an end-even the fear-induced nightmares that Psycho-Man is spreading across Manhattan!  It's the climax to the first year of Marvel Knights 4 and the final showdown between the FF and their reality-warping foe.  Hold onto your seats - especially you slight Marvelites - that wind blowing is a radical shift in the status quo of Marvel Comics' First Family of super heroes and adventurers!",
+    "price": 8.5,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/3/80/6467be6c63700.jpg",
+    "status": true,
+    "code": "4MK048",
+    "stock": 3,
+    "category": "varios"
+  },
+  {
+    "title": "Powerless #6",
+    "description": "The mysteries of the Powerless universe are finally revealed in the series' climactic conclusion!  What devastating truth will psychiatrist William Watts learn when the lives of Peter Parker, Matt Murdock and Logan all converge on him for the last time?  In a world without powers, who will live and who will die?  And who will be changed forever?",
+    "price": 10,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/9/00/56b103a87adf3.jpg",
+    "status": true,
+    "code": "POWER054",
+    "stock": 2,
+    "category": "varios"
+  },
+  {
+    "title": "Crimson Dynamo #3",
+    "description": "Fun turns to terror for Gennady Gavrilov, who realizes he's responsible for the Crimson Dynamo's destructive rampage. The armor's already ruining his life ... Can he stop it before it ends someone else's?",
+    "price": 11.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/e/e0/4bc69afc2c40b.jpg",
+    "status": true,
+    "code": "CDYNA391",
+    "stock": 0,
+    "category": "Dynamo"
+  },
+  {
+    "title": "NYX #1",
+    "description": "Say hello to a pack of New York City gutterpunks, the likes of which the Marvel Universe has never seen! The X-Men's dream has always been one of creating hope from despair - in a young mutant's darkest hour Charles Xavier will always be just around the corner, ready with open arms and a helping hand. But Xavier can't be everywhere at once. What becomes of a group of young mutants that have to rely on themselves for everything from food to shelter to love? Wayward angels with dirty faces who, instead of preparing for Magneto's next big assault, must learn to survive in the cold, harsh world of the city that never sleeps. Marvel's own Joe Quesada and superstar-in-waiting Josh Middleton bring the world of the X-Men to the streets, and the struggle for survival has never been more uncertain...",
+    "price": 15,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/7/d0/5d49e3695d88f.jpg",
+    "status": true,
+    "code": "NYX276",
+    "stock": 1,
+    "category": "NYX"
+  },
+  {
+    "title": "Gun Theory #4",
+    "description": "The phone rings, and killer-for-hire Harvey embarks on another hit. But nothing's going right this job. There's little room for error in the business of killing - so what happens when one occurs?",
+    "price": 5.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "GUN331",
+    "stock": 3,
+    "category": "varios"
+  },
+  {
+    "title": "Avengers #74",
+    "description": "While the Avengers continue to search the globe for her, Jennifer Walters seeks the one person on Earth who can help control her transformations. Featuring the return of the most demanded Avenger of all!",
+    "price": 20.99,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "AVEN348",
+    "stock": 1,
+    "category": "varios"
+  },
+  {
+    "title": "Hulk & Thing: Hard Knocks  #3",
+    "description": "It's clobbering ti--OOF!  Bruce Jones and superstar artist Jae Lee ring the bell for round three between two of Marvel's most powerful sluggers.  Kick back and relax with a frosty mug, but make sure your teeth are still in your head.  These fights are so big, even the readers need a mouthpiece!",
+    "price": 2.5,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/58dabd5726e12.jpg",
+    "status": true,
+    "code": "HULK071",
+    "stock": 10,
+    "category": "Hulk"
+  },
+  {
+    "title": "Powers #6",
+    "description": "Kidnapped by super-villains! Tortured by their leader! And she's been missing for hours! What is the fate of Detective Deena Pilgrim??",
+    "price": 9.5,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/1/f0/4bc6b1face0f7.jpg",
+    "status": true,
+    "code": "POW072",
+    "stock": 7,
+    "category": "varios"
+  },
+  {
+    "title": "Punisher Max #13",
+    "description": "Nicky Fury's got a job that needs doing - in Russia.  The kind of suicide mission any sane man wouldn't ponder for a second.  And that's exactly why he needs Frank Castle.",
+    "price": 15,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "PUN025",
+    "stock": 15,
+    "category": "Punisher"
+  },
+  {
+    "title": "NYX #2",
+    "description": "As the struggle to survive adolescence becomes more intense, Alphabet City's newest mutant begins to understand how her powers can save her butt.   But what will she do when she learns that self-preservation comes at a price?",
+    "price": 16.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/7/70/5d49e4ef78544.jpg",
+    "status": true,
+    "code": "NYX119",
+    "stock": 5,
+    "category": "NYX"
+  },
+  {
+    "title": "Weapon X #18",
+    "description": "The X-Men guest-star as the secrets behind Chamber's recent affiliation with the Weapon X program - and WOLVERINE's mysterious involvement - are uncovered.",
+    "price": 5.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/7/00/59442e2c8a8c9.jpg",
+    "status": true,
+    "code": "WEX241",
+    "stock": 1,
+    "category": "Xmen"
+  },
+  {
+    "title": "Wolverine: Snikt! #5",
+    "description": "Wolverine attempts a last ditch effort to defeat the evil Mandate aliens in this conclusion to the hit mini-series. But if he does escape with his life, will he be able to find his way back to his own era?",
+    "price": 6,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/1/d0/4bc32ea7a9abd.jpg",
+    "status": true,
+    "code": "WOLV227",
+    "stock": 1,
+    "category": "wolverine"
+  },
+  {
+    "title": "Ultimate Adventures #6",
+    "description": "The startling conclusion to the series! Woody and Hawk Owl come to a long overdue understanding in their relationship. But, does the truth come a bit too late?",
+    "price": 11,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/c/a0/5a8ecc6c0b885.jpg",
+    "status": true,
+    "code": "ULTADV",
+    "stock": 15,
+    "category": "varios"
+  },
+  {
+    "title": "Sentinel #11",
+    "description": "If it wasn't enough for Juston to have a family member in the hospital and the authorities breathing down his neck, now he has to contend with a 30-foot-tall robot that's become aware of its true purpose - to hunt and kill mutants!",
+    "price": 16,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/6/d0/6467bb53cf907.jpg",
+    "status": true,
+    "code": "SEN102",
+    "stock": 10,
+    "category": "Sentinel"
+  },
+  {
+    "title": "Avengers #72",
+    "description": "The She-Hulk is gone, and Jennifer Walters is on the run! Her friends aren't sure what she's afraid of, but they'll find out!",
+    "price": 5.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/c/c0/586d4eecd44b5.jpg",
+    "status": true,
+    "code": "AVEN375",
+    "stock": 1,
+    "category": "Avengers"
+  },
+  {
+    "title": "Supreme Power (2003) #7",
+    "description": "Jump on board one of the biggest hits of the year as it starts a NEW, second major story arc! Another new super power rises out of the depths of obscurity - Amphibian! Plus: witness the first (and possibly last!) climactic meeting of Hyperion and Doctor Spectrum!",
+    "price": 7.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/6/b0/4bc6a92777a45.jpg",
+    "status": "SUPPOW",
+    "stock": 6,
+    "category": "varios"
+  },
+  {
+    "title": "Hawkeye #2",
+    "description": "A weekend trip to Myrtle Beach. A stripper running away from a tough guy. A vagabond Clint Barton getting involved. The Avenging Archer's new ongoing series continues! Will stirring this beehive of life's losers lead Hawkeye to solving the problem ... or will it get him stung? ",
+    "price": 3.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/8/90/5b05b4d2b450e.jpg",
+    "status": true,
+    "code": "HAW342",
+    "stock": 10,
+    "category": "Hawkeye"
+  },
+  {
+    "title": "Thor: Vikings #5",
+    "description": "Thor & Dr. Strange have gone back in time to put a team together in hopes of defeating the horrible ZOMBIE VIKINGS that are laying siege to Manhattan!  Can a Viking woman, a Crusader, and a Nazi Fighter Pilot defeat these fearsome foes? ",
+    "price": 9.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/f/00/4bc6a420bef9c.jpg",
+    "status": true,
+    "code": "THOR253",
+    "stock": 8,
+    "category": "Thor"
+  },
+  {
+    "title": "Emma Frost #8",
+    "description": "Separated from her family for the first time in her life, young Emma finds life on her own growing increasingly more difficult - not to mention dangerous! Emma's new romance is anything but tender as her boyfriend leads them into a precarious situation and she must rely on her burgeoning mental powers to help them escape!",
+    "price": 5.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/d/03/5908e28811c28.jpg",
+    "status": true,
+    "code": "EMFR329",
+    "stock": 6,
+    "category": "Emmafrost"
+  },
+  {
+    "title": "Ultimate Six #3",
+    "description": "The Six has escaped their S.H.I.E.L.D. holding pen, and the outlines of Norman Osborn's horrific scheme become apparent. The Ultimates line up against them! But where is Ultimate Spidey?",
+    "price": 25,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/b/d0/4bc6aad4280c6.jpg",
+    "status": true,
+    "code": "ULTSIX",
+    "stock": 4,
+    "category": "varios"
+  },
+  {
+    "title": "Agent X #15",
+    "description": "It's the end of the road for AGENT X (yeah, we know ... but for real this time) ... but could that ending mean a new beginning for the long-lost merc known as Deadpool? And what will be the final fate of the man named Alex Hayden?",
+    "price": 5,
+    "thumbnail": "/ruta-imagen2.jpg",
+    "status": true,
+    "code": "AGX394",
+    "stock": 3,
+    "category": "AGENTX"
+  },
+  {
+    "title": "Human Torch #7",
+    "description": "Johnny finds himself in the war-torn Balkans in a mysterious castle filled with dark secrets and deadly phantoms. It's the biggest fight of the Torch's life - because this time what he can't see... CAN kill him!",
+    "price": 5.9,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/f/f0/4bc69d7ade57e.jpg",
+    "status": true,
+    "code": "HUTO352",
+    "stock": 2,
+    "category": "Torch"
+  },
+  {
+    "title": "Spider-Girl #70",
+    "description": "As the Buzz takes on the Man-Wolf and Spider-Girl finds herself pitted against Dr. Jade and the new Dr. Octopus, she gets an assist from the most unexpected source! Featuring cameos by Darkdevil, the Green Goblin & Ladyhawk.",
+    "price": 2.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/c/90/4bc6a8f842b7c.jpg",
+    "status": true,
+    "code": "SPI188",
+    "stock": 10,
+    "category": "Spidergirl"
+  },
+  {
+    "title": "Spider-Girl #80",
+    "description": "A single-issue story and a great jumping-on point for comics' longest-running female headliner!  As Courtney Duran finally learns Moose's terrible secret, Davida Kirby helps an injured Spider-Girl against the monstrous Dragon King.",
+    "price": 2.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/9/80/4bc6b3e5e6158.jpg",
+    "status": true,
+    "code": "SPI36",
+    "stock": 15,
+    "category": "Spidergirl"
+  },
+  {
+    "title": "Spider-Man/Doctor Octopus: Negative Exposure #5",
+    "description": "Preparing for his most vicious confrontation with Spider-Man, Doc Ock unleashes a torrent of destruction and mayhem on the unsuspecting citizens of Manhattan! Has cameraman Jeff Haight gone too far in his quest for the perfect shot?",
+    "price": 2.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/f/70/5d25eaac7b7c9.jpg",
+    "status": true,
+    "code": "SPIOCT",
+    "stock": 5,
+    "category": "varios"
+  },
+  {
+    "title": "District X #7",
+    "description": "This new arc is a great jumping-on place for new readers to discover the book every X-fan is talking about!  \r<br>Something lives under District X, something that loves the dark...and it's leaving a trail of murders in its wake. In a world that's rarely black-and-white, will Bishop and his partner Ismael be able to make the right calls that save people's lives? Or will they be helpless against this predator under the streets?",
+    "price": 8.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/6/30/583e04b35a8a5.jpg",
+    "status": true,
+    "code": "DIX079",
+    "stock": 12,
+    "category": "Bishop"
+  },
+  {
+    "title": "Doctor Spectrum #4",
+    "description": "Dig deeper into the past of Joe Ledger, A.K.A. Dr. Spectrum! The crystal that powered Hyperion's ship and became embedded in Dr. Spectrum's arm has plans for him. See those plans unfold here, in the story that couldn't be contained in Supreme Power!",
+    "price": 9.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/1/50/4bc6b0ac5dc2a.jpg",
+    "status": true,
+    "code": "DOCSPEC",
+    "stock": 2,
+    "category": "Spectrum"
+  },
+  {
+    "title": "Kabuki #3",
+    "description": "Kabuki is on a plane leaving Japan, leaving the Noh agency behind.  A new passport, a new name, a new look, a new job, and a new life.  So who is this new character on the plane with her who seems to know so much? It's a new start for Kabuki and the perfect jumping on issue for new readers! You've heard about all the awards... You've heard everyone talking about why Kabuki is so amazing and mind-blowing...  Now is the chance to see what all the talk is about!",
+    "price": 3.99,
+    "thumbnail": "http://i.annihil.us/u/prod/marvel/i/mg/b/50/4bc6b0b10b7a6.jpg",
+    "status": true,
+    "code": "KAB073",
+    "stock": 4,
+    "category": "Kabuki"
+  }
+]
+
+/* http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg */

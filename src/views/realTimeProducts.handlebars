@@ -1,0 +1,60 @@
+<h1>
+  Formulario para el de Productos
+</h1>
+
+<form id="formId" class="formulario">
+  <div class="titulo">
+    <label for="title">Titulo:</label>
+    <input type="text" required name="title" />
+  </div>
+
+  <div class="description">
+    <label for="description">Descripción:</label>
+    <input type="text" required name="description" />
+  </div>
+
+  <div class="precio">
+    <label for="price">Precio:</label>
+    <input type="number" required name="price" />
+  </div>
+
+  <div class="thumbnail">
+    <label for="thumbnail">Imagen:</label>
+    <input type="text" required name="thumbnail" />
+  </div>
+
+  <div class="codigo">
+    <label for="code">Codigo:</label>
+    <input type="text" required name="code" />
+  </div>
+
+  <div class="stock">
+    <label for="stock">Stock:</label>
+    <input type="number" required name="stock" />
+  </div>
+
+  <div class="button">
+    <button type="submit">Agregar</button>
+  </div>
+</form>
+
+<div>
+  <button type="submit" id="showProducts">Mostrar Productos</button>
+</div>
+
+<br />
+
+<table id="productTable">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Precio</th>
+      <th>Stock</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>

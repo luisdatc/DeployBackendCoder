@@ -41,6 +41,7 @@ mongoose
 app.use(express.json());
 
 app.use(cors(corsOptions));
+app.options("*", cors(corsOptions));
 
 app.use(cookieParser(process.env.SIGNED_COOKIE)); //la cookie esta firmada
 
@@ -64,7 +65,6 @@ app.use(express.urlencoded({ extended: true }));
 initializePassport();
 app.use(passport.initialize());
 app.use(passport.session());
-
 
 app.set("views", path.resolve(__dirname, "./views")); //resuelve rutas absolutas a travez de rutas relativas
 app.use("/static", express.static(path.join(__dirname, "/public")));

@@ -15,7 +15,11 @@ import { addLogger } from "./utils/logger.js";
 import swaggerJSDoc from "swagger-jsdoc";
 import swaggerUiExpress from "swagger-ui-express";
 
-const whiteList = ["http://127.0.0.1:5173", "http://localhost:5173"];
+const whiteList = [
+  "http://127.0.0.1:5173",
+  "http://localhost:5173",
+  "https://comic-store-back.netlify.app/",
+];
 
 const corsOptions = {
   origin: function (origin, callback) {

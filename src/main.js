@@ -45,7 +45,6 @@ mongoose
 app.use(express.json());
 
 app.use(cors(corsOptions));
-app.options("*", cors(corsOptions));
 
 app.use(cookieParser(process.env.SIGNED_COOKIE)); //la cookie esta firmada
 

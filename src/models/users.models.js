@@ -50,16 +50,16 @@ userSchema.methods.generatePasswordReset = function () {
   this.resetPasswordExpires = Date.now() + 3600000; // 1 hora de expiración
 };
 
-/* userSchema.plugin(mongoosePaginate); */
-
 userSchema.pre("save", async function (next) {
   try {
     if (this.isNew || this.isModified("password")) {
       this.generatePasswordReset();
     }
 
-    const newCarrito = await cartModel.create({});
-    this.cart = newCarrito._id;
+    if (!this.cart) {
+      const newCarrito = await cartModel.create({});
+      this.cart = newCarrito._id;
+    }
   } catch (error) {
     next(error);
   }

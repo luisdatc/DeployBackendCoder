@@ -5,7 +5,6 @@ import EError from "../services/errors/enum.js";
 import {
   generateCartError,
   generateDatabaseError,
-
 } from "../services/errors/info.js";
 import CustomError from "../services/errors/CustomError.js";
 
@@ -96,11 +95,18 @@ export const postCarritoByProductId = async (req, res) => {
       });
     }
 
-    const indice = cart.products.findIndex((prod) => prod.id_prod === pid);
+    const existeProducto = cart.products.some(
+      (prod) => prod.id_prod.toString() === pid.toString()
+    );
 
-    if (indice !== -1) {
-      cart.products[indice].quantity = quantity;
+    if (existeProducto) {
+      // El producto ya existe en el carrito, actualiza la cantidad
+      const productoExistente = cart.products.find(
+        (prod) => prod.id_prod.toString() === pid.toString()
+      );
+      productoExistente.quantity = quantity;
     } else {
+      // El producto no existe en el carrito, agrégalo
       cart.products.push({ id_prod: pid, quantity: quantity });
     }
 
@@ -109,7 +115,8 @@ export const postCarritoByProductId = async (req, res) => {
     res.status(200).send({
       respuesta: "OK",
       mensaje: "Producto agregado al carrito",
-      carrito: response, // Opcional: puedes enviar el carrito actualizado como respuesta
+      carrito: response,
+      id_producto_agregado: pid,
     });
   } catch (error) {
     console.error(error);
@@ -385,7 +392,9 @@ export const postCompra = async (req, res) => {
     if (!cart) {
       throw CustomError.createError({
         name: "NotFoundError",
-        message: generateDatabaseError(`Carrito con ID ${cartId} no encontrado`),
+        message: generateDatabaseError(
+          `Carrito con ID ${cartId} no encontrado`
+        ),
         code: EError.NOT_FOUND_ERROR,
       });
     }

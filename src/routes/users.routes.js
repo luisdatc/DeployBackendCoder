@@ -14,7 +14,12 @@ import multer from "multer";
 
 const userRouter = Router();
 
-userRouter.get("/", passportError("jwt"), authorization("admin"), getUsers);
+userRouter.get(
+  "/",
+  passportError("jwt"),
+  authorization("admin", "user"),
+  getUsers
+);
 
 userRouter.get(
   "/:id",

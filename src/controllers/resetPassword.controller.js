@@ -35,9 +35,9 @@ export const resetPasswordPost = async (req, res) => {
     await user.save();
 
     // Enviar correo electrónico con el enlace de restablecimiento
-    const resetLink = `http://localhost:5173/reset-password/${resetToken}`;
-    /*     const resetLink = `https://comic-store-back.netlify.app//reset-password/${resetToken}`;
-     */
+    /* const resetLink = `http://localhost:5173/reset-password/${resetToken}`; */
+        const resetLink = `https://comic-store-back.netlify.app//reset-password/${resetToken}`;
+    
     const mailOptions = {
       from: "correomcoc@gmail.com", // Reemplaza con tu dirección de correo electrónico
       to: email,

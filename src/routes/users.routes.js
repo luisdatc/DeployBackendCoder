@@ -5,6 +5,8 @@ import {
   putUser,
   deleteUser,
   uploadDocument,
+  deleteInactiveUsers,
+  getNombreEmailUsuarios,
 } from "../controllers/users.controllers.js";
 
 import { authorization, passportError } from "../utils/messageError.js";
@@ -51,5 +53,17 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 userRouter.post("/:uid/documents", upload.array("files"), uploadDocument);
+
+userRouter.delete(
+  "/",
+  passportError("jwt", authorization("admin"), deleteInactiveUsers)
+);
+
+userRouter.get(
+  "/nombre-email",
+  passportError("jwt"),
+  authorization("admin"),
+  getNombreEmailUsuarios
+);
 
 export default userRouter;

@@ -19,6 +19,7 @@ const whiteList = [
   "http://127.0.0.1:5173",
   "http://localhost:5173",
   "https://comic-store-back.netlify.app",
+  "http://localhost:8080",
 ];
 
 const corsOptions = {
@@ -45,7 +46,7 @@ mongoose
 app.use(express.json());
 
 app.use(cors(corsOptions));
-app.options('*', cors(corsOptions));
+app.options("*", cors(corsOptions));
 app.use(cookieParser(process.env.SIGNED_COOKIE)); //la cookie esta firmada
 
 app.use(

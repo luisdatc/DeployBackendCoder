@@ -3,6 +3,7 @@ import CustomError from "../services/errors/CustomError.js";
 import EError from "../services/errors/enum.js";
 import { generateUserError } from "../services/errors/info.js";
 import nodemailer from "nodemailer";
+import { sendInactiveAccountEmail } from "../utils/DeleteAcountMail.js";
 
 export const getUsers = async (req, res) => {
   try {
@@ -128,7 +129,8 @@ export const sendPasswordResetEmail = async (userEmail) => {
   // Guarda resetToken en la base de datos junto con el correo del usuario y una marca de tiempo
 
   const resetLink = `http://localhost:5173/reset-password/${resetToken}`;
-
+  /*     const resetLink = `https://comic-store-back.netlify.app//reset-password/${resetToken}`;
+   */
   const mailOptions = {
     from: "correomcoc@gmail.com",
     to: userEmail,
@@ -169,5 +171,46 @@ export const uploadDocument = async (req, res) => {
     res
       .status(500)
       .send({ message: "Error interno del servidor", error: error.message });
+  }
+};
+
+export const deleteInactiveUsers = async (req, res) => {
+  try {
+    // se traen los usuarios inactivos de d¿2 dias
+    const twoDaysAgo = new Date();
+    twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+
+    const inactiveUsers = await userModel.find({
+      last_connection: { $lt: twoDaysAgo },
+    });
+
+    // Elimina los usuarios inactivos
+    await userModel.deleteMany({
+      _id: { $in: inactiveUsers.map((user) => user._id) },
+    });
+
+    // Envía correos electrónicos informando a los usuarios eliminados
+    inactiveUsers.forEach(async (user) => {
+      await sendInactiveAccountEmail(user.email);
+    });
+
+    res
+      .status(200)
+      .send({ message: "Usuarios inactivos eliminados con éxito" });
+  } catch (error) {
+    res.status(500).send({
+      error: `Error al eliminar usuarios inactivos: ${error.message}`,
+    });
+  }
+};
+
+export const getNombreEmailUsuarios = async (req, res) => {
+  try {
+    const users = await userModel.find({}, { first_name: 1, email: 1, _id: 0 });
+    res.status(200).send(users);
+  } catch (error) {
+    res
+      .status(500)
+      .send({ error: `Error al obtener los usuarios: ${error.message}` });
   }
 };

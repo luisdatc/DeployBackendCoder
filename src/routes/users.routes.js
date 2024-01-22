@@ -17,7 +17,7 @@ const userRouter = Router();
 userRouter.get(
   "/",
   passportError("jwt"),
-  authorization("admin", "user"),
+  authorization(["admin", "user"]),
   getUsers
 );
 
@@ -67,7 +67,7 @@ userRouter.delete(
 userRouter.get(
   "/nombre-email",
   passportError("jwt"),
-  authorization("admin"),
+  authorization(["admin", "user"]),
   getNombreEmailUsuarios
 );
 

@@ -66,8 +66,6 @@ userRouter.delete(
 
 userRouter.get(
   "/nombre-email",
-  passportError("jwt"),
-  authorization(["admin", "user"]),
   getNombreEmailUsuarios
 );
 

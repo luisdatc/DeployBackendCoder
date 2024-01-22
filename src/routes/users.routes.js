@@ -61,12 +61,11 @@ userRouter.post("/:uid/documents", upload.array("files"), uploadDocument);
 
 userRouter.delete(
   "/",
-  passportError("jwt", authorization("admin"), deleteInactiveUsers)
+  passportError("jwt"),
+  authorization("admin"),
+  deleteInactiveUsers
 );
 
-userRouter.get(
-  "/nombre-email",
-  getNombreEmailUsuarios
-);
+userRouter.get("/nombre-email", getNombreEmailUsuarios);
 
 export default userRouter;

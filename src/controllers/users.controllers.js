@@ -128,9 +128,9 @@ export const sendPasswordResetEmail = async (userEmail) => {
   const resetToken = crypto.randomBytes(20).toString("hex");
   // Guarda resetToken en la base de datos junto con el correo del usuario y una marca de tiempo
 
-/*   const resetLink = `http://localhost:5173/reset-password/${resetToken}`;
- */      const resetLink = `https://comic-store-back.netlify.app//reset-password/${resetToken}`;
-  
+  /*   const resetLink = `http://localhost:5173/reset-password/${resetToken}`;
+   */ const resetLink = `https://comic-store-back.netlify.app//reset-password/${resetToken}`;
+
   const mailOptions = {
     from: "correomcoc@gmail.com",
     to: userEmail,
@@ -206,9 +206,11 @@ export const deleteInactiveUsers = async (req, res) => {
 
 export const getNombreEmailUsuarios = async (req, res) => {
   try {
+    console.log("Entré a getNombreEmailUsuarios"); // Agrega este console.log
     const users = await userModel.find({}, { first_name: 1, email: 1, _id: 0 });
     res.status(200).send(users);
   } catch (error) {
+    console.error("Error en getNombreEmailUsuarios:", error);
     res
       .status(500)
       .send({ error: `Error al obtener los usuarios: ${error.message}` });

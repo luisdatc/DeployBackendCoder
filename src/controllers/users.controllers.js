@@ -129,7 +129,7 @@ export const sendPasswordResetEmail = async (userEmail) => {
   // Guarda resetToken en la base de datos junto con el correo del usuario y una marca de tiempo
 
   /*   const resetLink = `http://localhost:5173/reset-password/${resetToken}`;
-   */ const resetLink = `https://comic-store-back.netlify.app//reset-password/${resetToken}`;
+   */ const resetLink = `https://comic-store-back.netlify.app/reset-password/${resetToken}`;
 
   const mailOptions = {
     from: "correomcoc@gmail.com",
